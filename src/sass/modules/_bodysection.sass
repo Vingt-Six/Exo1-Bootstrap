@@ -1,2 +1,19 @@
 .bansection
     margin: 0 20%
+    @include media-breakpoint-between(lg, xl)
+        margin: 0 10%
+    @include media-breakpoint-between(md, lg)
+        margin: 0 5%
+    @include media-breakpoint-only(xs)
+        margin: 0
+    .divcards
+        @include media-breakpoint-only(xs)
+            flex-direction: column
+            align-items: center
+        .carte
+            width: 49%
+            @include media-breakpoint-only(xs)
+                width: 90%
+                img
+                    @include media-breakpoint-only(xs)
+                        width: 100%
