@@ -18102,4 +18102,13 @@ fieldset:disabled .btn {
 .navbar {
   background-color: #32a2b8;
 }
+
+.bansection {
+  margin: 0 20%;
+}
+
+.bansection .twitter {
+  width: 100%;
+  height: 20vw;
+}
 /*# sourceMappingURL=app.css.map */
